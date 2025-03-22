@@ -4,9 +4,9 @@ This project focuses on analyzing e-commerce sales and customer insights using *
 
 ---
 
-## 🛠️ Data Cleaning Process
+## 🛠️ Data Cleaning Process using 
 Here i used **excel** to ensure the data is ready for Exploratory Data Analysis by following the outlined guide:
-
+Tool used [Excel 2019](www.microsoft.com/office/2019)
 
 ### 1.  Handling Missing Values
 - **Age Column**: Filled missing values using the **median** to avoid decimal issues.
@@ -18,7 +18,7 @@ Here i used **excel** to ensure the data is ready for Exploratory Data Analysis 
 - **Shipping Status**: Standardized text formatting and removed extra spaces
 
 ### 3. Excel pivot table for more insights about the data 
-- here i used **pivot table** to better understand the data before progressing any further 
+Here i used **pivot table** to better understand the data before progressing any further 
 ![sales_pivot_table](https://github.com/user-attachments/assets/c362c2e0-2d3f-4edb-b068-3dc6fc733815)
 
 
