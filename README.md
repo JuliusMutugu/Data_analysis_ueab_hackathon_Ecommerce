@@ -21,4 +21,54 @@ Tool used [Excel 2019](www.microsoft.com/office/2019)
 Here i used **pivot table** to better understand the data before progressing any further 
 ![sales_pivot_table](https://github.com/user-attachments/assets/c362c2e0-2d3f-4edb-b068-3dc6fc733815)
 
+---
+## Data Visualization & Insights
+
+### Best-Selling Product Analysis
+
+Bar chart for most frequently purchased products.
+
+```python
+import matplotlib.pyplot as plt
+
+# Group sales by product and get top 10
+top_products = sales_dataframe.groupby("Product Name")["Total Price"].sum().nlargest(10)
+
+# Plot bar chart
+plt.figure(figsize=(12,6))
+top_products.plot(kind="bar", color="royalblue", edgecolor="black")
+
+# Customize labels and title
+plt.xlabel("Product Name")
+plt.ylabel("Total Sales")
+plt.title("Top 10 Best-Selling Products")
+plt.xticks(rotation=45)  
+plt.grid(axis="y", linestyle="--", alpha=0.7)
+
+# Show the plot
+plt.show()
+```
+
+### Sales Trends Over Time
+
+Line chart for monthly sales trends.
+
+Observed seasonal spikes.
+
+### Correlation Analysis
+
+Heatmap for correlation between numerical variables.
+
+### Regional Segmentation
+
+Pie chart for total sales per region.
+
+Highlighted top-performing region.
+
+### Product Returns Analysis
+
+Bar chart for returned products by region.
+
+
+
 
