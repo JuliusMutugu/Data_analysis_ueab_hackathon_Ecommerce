@@ -1,51 +1,94 @@
-#  E-Commerce Sales Analysis Hackathon
-## Project Overview 
-This project focuses on analyzing e-commerce sales and customer insights using **Excel, Python (EDA), and Power BI** to uncover hidden pattern in the data. This is with a goal to win a data analytics hackathon at the university of Eastern Africa, Baraton. 
+# 🛒 E-Commerce Sales Analysis Hackathon
+## 📌 Project Overview 
+This project focuses on analyzing **e-commerce sales and customer insights** using **Excel, Python (EDA), and Power BI** to uncover hidden patterns in the data.  
+The goal is to win the **Data Analytics Hackathon at the University of Eastern Africa, Baraton** by deriving actionable insights.
 
 ---
 
-## 🛠️ Data Cleaning Process using 
-Here i used **excel** to ensure the data is ready for Exploratory Data Analysis by following the outlined guide:
-Tool used [Excel 2019](www.microsoft.com/office/2019)
+## 🛠️ Data Cleaning Process
+**Tool Used:** [Excel 2019](www.microsoft.com/office/2019)
 
-### 1.  Handling Missing Values
-- **Age Column**: Filled missing values using the **median** to avoid decimal issues.
-- **Region Column**: Filled missing values with the most frequent region (**West**) used a count function to determine the common value.
-- **Shipping Status Column**: Replaced missing values with **"unknown"** since the missing values are more than 10% for much effective visualization.
+### 1️⃣ Handling Missing Values
+- **Age Column**: Filled missing values using the **median** to avoid decimal inconsistencies.  
+- **Region Column**: Replaced missing values with the most frequent region (**West**), identified using a count function.  
+- **Shipping Status Column**: Assigned missing values as **"unknown"**, since they accounted for more than **10%** of the dataset, ensuring effective visualization.
 
-### 2️. Ensuring Data Consistency
-- **Unit Price**: Rounded to **2 decimal places** for uniformity.
-- **Shipping Status**: Standardized text formatting and removed extra spaces
+### 2️⃣ Ensuring Data Consistency
+- **Unit Price**: Rounded to **two decimal places** for uniformity.  
+- **Shipping Status**: Standardized text formatting and removed extra spaces.  
 
-### 3. Excel pivot table for more insights about the data 
-Here i used **pivot table** to better understand the data before progressing any further 
-![sales_pivot_table](https://github.com/user-attachments/assets/c362c2e0-2d3f-4edb-b068-3dc6fc733815)
+### 3️⃣ Initial Data Exploration using Excel Pivot Tables
+To gain preliminary insights, a **Pivot Table** was used before proceeding with in-depth analysis.  
+![sales_pivot_table](https://github.com/user-attachments/assets/33e80657-910d-487e-a740-18276830625d)
 
 ---
-## Data Visualization & Insights. 
-Here i asked some key questions in consideration with the business setting to get more insights from the data? 
+
+## Data Visualization & Insights  
+Key business-related questions were explored to gain deeper insights into sales performance.  
+
+### Best Performing Regions  
+![best_performing_region](https://github.com/user-attachments/assets/f377874f-ee9f-4275-9636-b9687f271369)
+
+### Best-Selling Product  
+![best_selling_product](https://github.com/user-attachments/assets/c587c895-051b-4deb-a93c-fc796689c783)
+
+### Correlation Analysis  
+
+![correlation_heat_matp](https://github.com/user-attachments/assets/b5776b69-d762-4da0-9217-68934dea1ad2)
+
+### Best Month for Sales  
+![best_month sales](https://github.com/user-attachments/assets/234207aa-053d-458f-bc1c-b917503d8c3c)
 
 
-### 1. what are the best performing regions?
+### Findings  
+- The **West** region had the highest sales, indicating a strong market presence.  
+- **Product X** was the best-selling item, suggesting potential for stock expansion.  
+- The **correlation heatmap** provided insights into sales-driving factors.  
+- **Returned products analysis** helped identify refund trends and potential improvement areas.  
+---
+## Sql Analysis
 
-![best_performing_region](https://github.com/user-attachments/assets/65687e42-413b-4112-875e-57d62469df29)
-
-### 2. what is the best performing product? 
-![best_selling_product](https://github.com/user-attachments/assets/267d4225-0782-47ad-998c-ef4a2a7c924e)
-
-### what is the correlation between numerical data? 
-![correlation_heat_matp](https://github.com/user-attachments/assets/479a6bce-40e6-46f0-9887-34ef234932d9)
-
-### which is the best performing month of the year? 
-![best_month sales](https://github.com/user-attachments/assets/e3b80b60-f1be-449f-8c36-12828286af3f)
-
-
-### what is the number of return for each products?
-![number_of_returned_products_](https://github.com/user-attachments/assets/52d66f7d-1e11-465a-ab79-7443b3602cac)
-
-
-
-
+### Database Setup  
+The dataset was imported into MySQL, and the necessary transformations were performed.  
+```sql
+CREATE DATABASE Ecommerce;
+USE Ecommerce;
+```
+### Data Preprocessing 
+```sql
+  UPDATE sales
+  SET `Order Date` = CASE  
+      WHEN `Order Date` LIKE '%/%' THEN date_format(str_to_date(`Order Date`, '%m/%d/%Y'), '%Y/%m/%d')  
+      ELSE NULL  
+  END;
+  
+  ALTER TABLE sales MODIFY COLUMN `Order Date` DATE;
+```
+### Important Queries 
+#### best sales date of the week
+```sql
+  SELECT DAYNAME(`Order Date`) AS Day_of_Week,  
+         SUM(`Total Price`) AS Total_Sales  
+  FROM sales  
+  GROUP BY Day_of_Week  
+  ORDER BY FIELD(Day_of_Week, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
+```
+#### top 5 customers
+```sql
+  SELECT `Customer ID`, SUM(`Total Price`) AS Total_Spent  
+FROM sales  
+GROUP BY `Customer ID`  
+ORDER BY Total_Spent DESC  
+LIMIT 5;
+```
+#### highest revenue regions
+```sql
+SELECT `Region`, SUM(`Total Price`) AS Revenue  
+FROM sales  
+GROUP BY `Region`  
+ORDER BY Revenue DESC  
+LIMIT 3;
+```
 
 
 
