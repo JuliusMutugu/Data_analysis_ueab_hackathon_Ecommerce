@@ -22,52 +22,29 @@ Here i used **pivot table** to better understand the data before progressing any
 ![sales_pivot_table](https://github.com/user-attachments/assets/c362c2e0-2d3f-4edb-b068-3dc6fc733815)
 
 ---
-## Data Visualization & Insights
+## Data Visualization & Insights. 
+Here i asked some key questions in consideration with the business setting to get more insights from the data? 
 
-### Best-Selling Product Analysis
 
-Bar chart for most frequently purchased products.
+### 1. what are the best performing regions?
 
-```python
-import matplotlib.pyplot as plt
+![best_performing_region](https://github.com/user-attachments/assets/65687e42-413b-4112-875e-57d62469df29)
 
-# Group sales by product and get top 10
-top_products = sales_dataframe.groupby("Product Name")["Total Price"].sum().nlargest(10)
+### 2. what is the best performing product? 
+![best_selling_product](https://github.com/user-attachments/assets/267d4225-0782-47ad-998c-ef4a2a7c924e)
 
-# Plot bar chart
-plt.figure(figsize=(12,6))
-top_products.plot(kind="bar", color="royalblue", edgecolor="black")
+### what is the correlation between numerical data? 
+![correlation_heat_matp](https://github.com/user-attachments/assets/479a6bce-40e6-46f0-9887-34ef234932d9)
 
-# Customize labels and title
-plt.xlabel("Product Name")
-plt.ylabel("Total Sales")
-plt.title("Top 10 Best-Selling Products")
-plt.xticks(rotation=45)  
-plt.grid(axis="y", linestyle="--", alpha=0.7)
+### which is the best performing month of the year? 
+![best_month sales](https://github.com/user-attachments/assets/e3b80b60-f1be-449f-8c36-12828286af3f)
 
-# Show the plot
-plt.show()
-```
 
-### Sales Trends Over Time
+### what is the number of return for each products?
+![number_of_returned_products_](https://github.com/user-attachments/assets/52d66f7d-1e11-465a-ab79-7443b3602cac)
 
-Line chart for monthly sales trends.
 
-Observed seasonal spikes.
 
-### Correlation Analysis
-
-Heatmap for correlation between numerical variables.
-
-### Regional Segmentation
-
-Pie chart for total sales per region.
-
-Highlighted top-performing region.
-
-### Product Returns Analysis
-
-Bar chart for returned products by region.
 
 
 
