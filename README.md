@@ -91,73 +91,24 @@ LIMIT 3;
 ```
 
 ## Power Bi Visuals. 
+![sales_dashboard](https://github.com/user-attachments/assets/bcfb37ed-9fa4-4edb-b00d-01a4b5479998)
+
 ### Major Questions considered. 
-1. which is the most performing region?
-2. what is the gender distribution based on location and sales?
-3. which is the best performing product?
-4. What was the best performing season/Quarter of the year?
-5. What are some of the key consideration
+Sales Analysis
+1. What are the total sales by region?
+2. Which product category generates the highest revenue?
+3. What is the average shipping fee by region?
+Customer Behaviour
+4. How does customer age impact purchasing behavior?
+5. What is the most popular product by gender?
+Order Fulfillment
+6. What is the order fulfillment rate (delivered vs. returned)?
+7. Are there any trends in shipping status over time?
 
-6. --
-   # Sales Analysis Report
+### other questions? 
+Best age group contribution to the market? 
+Best Customers? 
+New versus Old Customers? 
 
-## **Key Questions Addressed by the Report**
-
-#### **What are the quarterly sales trends?**  
-   - Analyzing total sales performance across different quarters to identify growth patterns.
-
-#### **Which products perform the best in terms of sales?**  
-   - Identifying the highest revenue-generating products.
-
-#### **Which region generates the highest sales?**  
-   - Comparing regional sales to determine the best-performing area.
-
-#### **What is the spending pattern of different customer age groups?**  
-   - Understanding customer purchasing power based on age demographics.
-
-#### **What are the peak days for sales?**  
-   - Identifying which days of the week experience the highest sales volumes.
-
-#### **How do spending habits differ between genders?**  
-   - Evaluating differences in purchasing power and volume between male and female customers.
-
-#### **What is the distribution of customer spending categories?**  
-   - Categorizing customers into low, mid, and high spenders for targeted marketing strategies.
-
-#### **What is the shipping distribution across different regions?**  
-   - Examining delivery efficiency and return rates based on location.
-
----
-
-## **Conclusion**
-### **Conclusion**
-The Power BI sales analysis report provides key insights into sales trends, customer behaviors, and regional performance. The data reveals that sales fluctuate across quarters, with certain products significantly outperforming others. Regional disparities highlight variations in purchasing power and customer preferences. Customer demographics, such as age and gender, play a crucial role in spending patterns, influencing sales strategies. Additionally, shipping and delivery trends indicate areas for operational improvements.
-
----
-
-## **Recommendations**
-### **Recommendation**
-
-1. **Optimize Inventory for High-Performing Products**  
-   - Ensure adequate stock levels for best-selling products such as laptops and smartphones to maximize revenue.
-
-2. **Target High-Spending Customer Segments**  
-   - Develop personalized promotions and loyalty programs for mid to high spenders.
-
-3. **Enhance Regional Sales Strategies**  
-   - Focus marketing and promotional efforts on underperforming regions to balance sales distribution.
-
-4. **Leverage Peak Sales Days for Promotions**  
-   - Schedule sales campaigns around high-traffic days such as Saturdays to boost revenue.
-
-5. **Improve Shipping and Delivery Efficiency**  
-   - Minimize product returns and unknown shipping statuses by refining logistics operations.
-
-6. **Use Gender-Based Marketing Insights**  
-   - Tailor product recommendations and advertisements based on gender spending behaviors.
-
-7. **Expand Age-Based Product Targeting**  
-   - Create customized product bundles catering to high-spending age groups.
-
-
+  
 
