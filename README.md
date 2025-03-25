@@ -1,6 +1,32 @@
 # 🛒 E-Commerce Sales Analysis Hackathon
+
+
+## 📌 Table of Contents  
+1. [Project Overview](#-project-overview)  
+2. [🛠️ Data Cleaning Process](#️-data-cleaning-process)  
+   - [Handling Missing Values](#1️⃣-handling-missing-values)  
+   - [Ensuring Data Consistency](#2️⃣-ensuring-data-consistency)  
+   - [Initial Data Exploration](#3️⃣-initial-data-exploration-using-excel-pivot-tables)  
+3. [📊 Data Visualization & Insights](#data-visualization--insights)  
+   - [Best Performing Regions](#best-performing-regions)  
+   - [Best-Selling Product](#best-selling-product)  
+   - [Correlation Analysis](#correlation-analysis)  
+   - [Best Month for Sales](#best-month-for-sales)  
+4. [🛢️ SQL Analysis](#sql-analysis)  
+   - [Database Setup](#database-setup)  
+   - [Data Preprocessing](#data-preprocessing)  
+   - [Important Queries](#important-queries)  
+5. [📊 Power BI Visuals](#power-bi-visuals)  
+   - [Major Questions Considered](#major-questions-considered)  
+6. [📈 Sales & Customer Insights](#-e-commerce-sales--customer-insights-report)  
+   - [Sales Analysis](#1-sales-analysis)  
+   - [Customer Behavior](#2-customer-behavior)  
+7. [🚀 Recommendations](#Recommendations)  
+
+---
+
 ## 📌 Project Overview 
-This project focuses on analyzing **e-commerce sales and customer insights** using **Excel, Python (EDA), and Power BI** to uncover hidden patterns in the data.  
+This project focuses on analyzing **Ecommerce sales and customer insights** using **Excel, Python (EDA), and Power BI** to uncover hidden patterns in the data.  
 The goal is to win the **Data Analytics Hackathon at the University of Eastern Africa, Baraton** by deriving actionable insights.
 
 ---
@@ -94,11 +120,11 @@ LIMIT 3;
 ![sales_dashboard](https://github.com/user-attachments/assets/bcfb37ed-9fa4-4edb-b00d-01a4b5479998)
 
 ### Major Questions considered. 
-Sales Analysis
+**Sales Analysis**
 1. What are the total sales by region?
 2. Which product category generates the highest revenue?
 3. What is the average shipping fee by region?
-Customer Behaviour
+**Customer Behaviour**
 4. How does customer age impact purchasing behavior?
 5. What is the most popular product by gender?
 Order Fulfillment
@@ -109,6 +135,71 @@ Order Fulfillment
 Best age group contribution to the market? 
 Best Customers? 
 New versus Old Customers? 
+# 📊 E-Commerce Sales & Customer Insights Report
+
+## 1. Sales Analysis
+### 🔹 What are the total sales by region?
+- **West:** $391K (29.01%) 🏆
+- **East:** $330K (24.5%)
+- **North:** $325K (24.13%)
+- **South:** $301K (22.36%)
+📌 **Insight:** The **West region leads in total sales**, but differences between regions are small.
+
+### 🔹 Which product category generates the highest revenue?
+- **Laptops:** $0.70M 🏆
+- **Smartphones:** $0.35M
+- **Monitors:** $0.15M
+📌 **Insight:** **Laptops dominate** in revenue generation.
+
+### 🔹 What is the average shipping fee by region?
+- Data on shipping fees is not available, but shipping **status by region** is:
+  - **West has the highest delivery count**, while **North has more returned items**.
+
+---
+
+##  2. Customer Behavior
+### 🔹 How does customer age impact purchasing behavior?
+- **Most spending:** **36-45 & 46-55 age groups**.
+- **Least spending:** **18-25 age group.**
+📌 **Insight:** Older customers **spend more per order**, making them a priority for high-ticket items.
+
+### 🔹 What is the most popular product by gender?
+- **Men prefer Monitors & Laptops.**
+- **Women prefer Laptops & Monitors (decision split).**
+📌 **Insight:** Target **men with high-performance products**, while women may prefer **versatile devices**.
+
+---
+
+## 📌 3. Order Fulfillment & Logistics
+### 🔹 What is the order fulfillment rate (delivered vs. returned)?
+- **Delivered:** Majority of products.
+- **Returned:** Higher in **North region**.
+📌 **Insight:** **North has a fulfillment issue**—possibly due to **logistics or product expectations**.
+
+### 🔹 Are there trends in shipping status over time?
+- **No clear pattern, but returns remain consistent.**
+📌 **Insight:** Need to **investigate reasons for returns** (product issues, miscommunication, or logistics).
+
+### **Power BI Insights & Key Findings**
+- 📊 **Sales Dashboard:** West region dominates sales; low performance in South.  
+- 📈 **Customer Segmentation:** 36-45 age group spends the most.  
+- 🔄 **Return Trends:** North region has the most returns.  
+
+
+---
+
+## Recommendations
+1️⃣ **Boost customer retention** with loyalty programs & personalized offers.  
+2️⃣ **Target high-value customer segments** (36-55 age group) with premium deals.  
+3️⃣ **Reduce product returns** by improving product descriptions and logistics in **North region**.  
+4️⃣ **Create gender-focused marketing**—highlight performance for men & versatility for women.  
+5️⃣ **Optimize sales in underperforming regions** with location-specific promotions.  
+
+📌 **Final Thought:**  
+By leveraging these insights, the company can **increase revenue, improve retention, and optimize logistics.** and also do invest in ensuring most return rate is reduced.  
+
+
+
 
   
 
