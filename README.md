@@ -90,5 +90,74 @@ ORDER BY Revenue DESC
 LIMIT 3;
 ```
 
+## Power Bi Visuals. 
+### Major Questions considered. 
+1. which is the most performing region?
+2. what is the gender distribution based on location and sales?
+3. which is the best performing product?
+4. What was the best performing season/Quarter of the year?
+5. What are some of the key consideration
+
+6. --
+   # Sales Analysis Report
+
+## **Key Questions Addressed by the Report**
+
+#### **What are the quarterly sales trends?**  
+   - Analyzing total sales performance across different quarters to identify growth patterns.
+
+#### **Which products perform the best in terms of sales?**  
+   - Identifying the highest revenue-generating products.
+
+#### **Which region generates the highest sales?**  
+   - Comparing regional sales to determine the best-performing area.
+
+#### **What is the spending pattern of different customer age groups?**  
+   - Understanding customer purchasing power based on age demographics.
+
+#### **What are the peak days for sales?**  
+   - Identifying which days of the week experience the highest sales volumes.
+
+#### **How do spending habits differ between genders?**  
+   - Evaluating differences in purchasing power and volume between male and female customers.
+
+#### **What is the distribution of customer spending categories?**  
+   - Categorizing customers into low, mid, and high spenders for targeted marketing strategies.
+
+#### **What is the shipping distribution across different regions?**  
+   - Examining delivery efficiency and return rates based on location.
+
+---
+
+## **Conclusion**
+### **Conclusion**
+The Power BI sales analysis report provides key insights into sales trends, customer behaviors, and regional performance. The data reveals that sales fluctuate across quarters, with certain products significantly outperforming others. Regional disparities highlight variations in purchasing power and customer preferences. Customer demographics, such as age and gender, play a crucial role in spending patterns, influencing sales strategies. Additionally, shipping and delivery trends indicate areas for operational improvements.
+
+---
+
+## **Recommendations**
+### **Recommendation**
+
+1. **Optimize Inventory for High-Performing Products**  
+   - Ensure adequate stock levels for best-selling products such as laptops and smartphones to maximize revenue.
+
+2. **Target High-Spending Customer Segments**  
+   - Develop personalized promotions and loyalty programs for mid to high spenders.
+
+3. **Enhance Regional Sales Strategies**  
+   - Focus marketing and promotional efforts on underperforming regions to balance sales distribution.
+
+4. **Leverage Peak Sales Days for Promotions**  
+   - Schedule sales campaigns around high-traffic days such as Saturdays to boost revenue.
+
+5. **Improve Shipping and Delivery Efficiency**  
+   - Minimize product returns and unknown shipping statuses by refining logistics operations.
+
+6. **Use Gender-Based Marketing Insights**  
+   - Tailor product recommendations and advertisements based on gender spending behaviors.
+
+7. **Expand Age-Based Product Targeting**  
+   - Create customized product bundles catering to high-spending age groups.
+
 
 
