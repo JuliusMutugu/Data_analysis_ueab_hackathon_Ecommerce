@@ -1,0 +1,3 @@
+I split the data reports into two: 
+The sales_based deal with the sales and business performance. 
+The customer retention deal with customer retention strategies and offers basis for evaluating customers and market segmentation. 
