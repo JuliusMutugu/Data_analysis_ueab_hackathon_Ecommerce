@@ -18,11 +18,11 @@
    - [Data Preprocessing](#data-preprocessing)  
    - [Important Queries](#important-queries)  
 6. [📊 Power BI Visuals](#power-bi-visuals)  
-   
-7.    [Sales Analysis](#1-sales-analysis)  
-   [Customer Behavior](#2-customer-behavior)
+ - [Sales Analysis](#1-sales-analysis)  
+  - [Customer Behavior](#2-customer-behavior)
   
-9. [🚀 Recommendations](#Recommendations)  
+9. [🚀 Recommendations](#Recommendations)
+10. 
 
 ---
 
@@ -222,7 +222,7 @@ Tool used: [PowerBI](www.microsoft.com/powerbi-desktop).
 🔹 Offer location-based discounts or limited-time free shipping to encourage conversions.  
 🔹 Partner with local influencers or digital campaigns to **increase brand awareness in weaker regions**.  
 
-📌 **By implementing these strategies, the business can drive higher revenue, reduce operational inefficiencies, and strengthen customer engagement—ensuring long-term profitability.** 🚀🏆  
+📌 **By implementing these strategies, the business can drive higher revenue, reduce operational inefficiencies, and strengthen customer engagement—ensuring long-term profitability.**   
 
 📌 **Final Thought:*
 The 36-45 age group generates the highest revenue. By introducing personalized discounts and exclusive deals for repeat buyers in this segment, the business can increase customer retention and maximize sales
