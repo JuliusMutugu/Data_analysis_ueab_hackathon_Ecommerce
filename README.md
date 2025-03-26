@@ -31,7 +31,7 @@ This project focuses on analyzing **Ecommerce sales and customer insights** usin
 The goal is to win the **Data Analytics Hackathon at the University of Eastern Africa, Baraton** by deriving actionable insights.
 
 ---
-## Introduction:
+## Introduction
 This dataset contains **E-commerce sales transaction data**, including **customer demographics (age, gender, region), product categories, order details, total sales value, shipping status, and return rates**. The data provides insights into **sales trends, customer purchasing behavior, and operational efficiency**.  
 
 ### **Purpose of the Analysis**  
