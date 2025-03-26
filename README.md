@@ -18,11 +18,11 @@
    - [Data Preprocessing](#data-preprocessing)  
    - [Important Queries](#important-queries)  
 6. [📊 Power BI Visuals](#power-bi-visuals)  
-   - [Major Questions Considered](#major-questions-considered)  
-7. [📈 Sales & Customer Insights](#-e-commerce-sales--customer-insights-report)  
-   - [Sales Analysis](#1-sales-analysis)  
-   - [Customer Behavior](#2-customer-behavior)  
-8. [🚀 Recommendations](#Recommendations)  
+   
+7.    [Sales Analysis](#1-sales-analysis)  
+   [Customer Behavior](#2-customer-behavior)
+  
+9. [🚀 Recommendations](#Recommendations)  
 
 ---
 
@@ -131,27 +131,19 @@ LIMIT 3;
 ```
 
 ## Power Bi Visuals. 
-![sales_dashboard](https://github.com/user-attachments/assets/bcfb37ed-9fa4-4edb-b00d-01a4b5479998)
+Here i used power BI desktop to make reports from the sql results. Performing drill down operations on the date to extract records based on quarters. The reports are extracted from the csv files previously drafted from mysql available in the **sqlResults**. 
 
-### Major Questions considered. 
-**Sales Analysis**
-1. What are the total sales by region?
-2. Which product category generates the highest revenue?
-3. What is the average shipping fee by region?
-**Customer Behaviour**
-4. How does customer age impact purchasing behavior?
-5. What is the most popular product by gender?
-Order Fulfillment
-6. What is the order fulfillment rate (delivered vs. returned)?
-7. Are there any trends in shipping status over time?
 
-### other questions? 
-Best age group contribution to the market? 
-Best Customers? 
-New versus Old Customers? 
-## 📊 E-Commerce Sales & Customer Insights Report
+Tool used: [PowerBI](www.microsoft.com/powerbi-desktop).
+
+
+##### *** full reports are available in pdf format on the reports folder *** 
+
+## Major Questions considered. 
 
 ### 1. Sales Analysis
+![sales_dashboard](https://github.com/user-attachments/assets/bcfb37ed-9fa4-4edb-b00d-01a4b5479998)
+ 
 #### 🔹 What are the total sales by region?
 - **West:** $391K (29.01%) 🏆
 - **East:** $330K (24.5%)
@@ -172,6 +164,7 @@ New versus Old Customers?
 ---
 
 ###  2. Customer Behavior
+![Screenshot 2025-03-25 083121](https://github.com/user-attachments/assets/f4dbc2fa-273c-4f47-b955-c36d8de53f59)
 #### 🔹 How does customer age impact purchasing behavior?
 - **Most spending:** **36-45 & 46-55 age groups**.
 - **Least spending:** **18-25 age group.**
