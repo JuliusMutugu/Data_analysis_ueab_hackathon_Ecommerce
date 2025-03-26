@@ -2,26 +2,27 @@
 
 
 ## 📌 Table of Contents  
-1. [Project Overview](#-project-overview)  
-2. [🛠️ Data Cleaning Process](#️-data-cleaning-process)  
+1. [Project Overview](#-project-overview)
+2. [Introduction](#-introduction).
+3. [🛠️ Data Cleaning Process](#️-data-cleaning-process)  
    - [Handling Missing Values](#1️⃣-handling-missing-values)  
    - [Ensuring Data Consistency](#2️⃣-ensuring-data-consistency)  
    - [Initial Data Exploration](#3️⃣-initial-data-exploration-using-excel-pivot-tables)  
-3. [📊 Data Visualization & Insights](#data-visualization--insights)  
+4. [📊 Data Visualization & Insights](#data-visualization--insights)  
    - [Best Performing Regions](#best-performing-regions)  
    - [Best-Selling Product](#best-selling-product)  
    - [Correlation Analysis](#correlation-analysis)  
    - [Best Month for Sales](#best-month-for-sales)  
-4. [🛢️ SQL Analysis](#sql-analysis)  
+5. [🛢️ SQL Analysis](#sql-analysis)  
    - [Database Setup](#database-setup)  
    - [Data Preprocessing](#data-preprocessing)  
    - [Important Queries](#important-queries)  
-5. [📊 Power BI Visuals](#power-bi-visuals)  
+6. [📊 Power BI Visuals](#power-bi-visuals)  
    - [Major Questions Considered](#major-questions-considered)  
-6. [📈 Sales & Customer Insights](#-e-commerce-sales--customer-insights-report)  
+7. [📈 Sales & Customer Insights](#-e-commerce-sales--customer-insights-report)  
    - [Sales Analysis](#1-sales-analysis)  
    - [Customer Behavior](#2-customer-behavior)  
-7. [🚀 Recommendations](#Recommendations)  
+8. [🚀 Recommendations](#Recommendations)  
 
 ---
 
@@ -30,6 +31,19 @@ This project focuses on analyzing **Ecommerce sales and customer insights** usin
 The goal is to win the **Data Analytics Hackathon at the University of Eastern Africa, Baraton** by deriving actionable insights.
 
 ---
+## Introduction:
+This dataset contains **E-commerce sales transaction data**, including **customer demographics (age, gender, region), product categories, order details, total sales value, shipping status, and return rates**. The data provides insights into **sales trends, customer purchasing behavior, and operational efficiency**.  
+
+### **Purpose of the Analysis**  
+The goal of this analysis is to **uncover patterns and trends** that can help businesses:  
+✅ Identify **top-performing products and regions**  
+✅ Understand **customer spending behavior and segmentation**  
+✅ Improve **order fulfillment efficiency and reduce return rates**  
+✅ Optimize **marketing and inventory management strategies**  
+
+Using **Excel (data cleaning), Python (EDA), SQL (data querying), and Power BI (visualization)**, this analysis delivers **data-driven insights and actionable recommendations** to enhance **sales performance, customer retention, and business decision-making**. 
+---
+
 
 ## 🛠️ Data Cleaning Process
 **Tool Used:** [Excel 2019](www.microsoft.com/office/2019)
@@ -135,43 +149,43 @@ Order Fulfillment
 Best age group contribution to the market? 
 Best Customers? 
 New versus Old Customers? 
-# 📊 E-Commerce Sales & Customer Insights Report
+## 📊 E-Commerce Sales & Customer Insights Report
 
-## 1. Sales Analysis
-### 🔹 What are the total sales by region?
+### 1. Sales Analysis
+#### 🔹 What are the total sales by region?
 - **West:** $391K (29.01%) 🏆
 - **East:** $330K (24.5%)
 - **North:** $325K (24.13%)
 - **South:** $301K (22.36%)
 📌 **Insight:** The **West region leads in total sales**, but differences between regions are small.
 
-### 🔹 Which product category generates the highest revenue?
+#### 🔹 Which product category generates the highest revenue?
 - **Laptops:** $0.70M 🏆
 - **Smartphones:** $0.35M
 - **Monitors:** $0.15M
 📌 **Insight:** **Laptops dominate** in revenue generation.
 
-### 🔹 What is the average shipping fee by region?
+#### 🔹 What is the average shipping fee by region?
 - Data on shipping fees is not available, but shipping **status by region** is:
   - **West has the highest delivery count**, while **North has more returned items**.
 
 ---
 
-##  2. Customer Behavior
-### 🔹 How does customer age impact purchasing behavior?
+###  2. Customer Behavior
+#### 🔹 How does customer age impact purchasing behavior?
 - **Most spending:** **36-45 & 46-55 age groups**.
 - **Least spending:** **18-25 age group.**
 📌 **Insight:** Older customers **spend more per order**, making them a priority for high-ticket items.
 
-### 🔹 What is the most popular product by gender?
+#### 🔹 What is the most popular product by gender?
 - **Men prefer Monitors & Laptops.**
 - **Women prefer Laptops & Monitors (decision split).**
 📌 **Insight:** Target **men with high-performance products**, while women may prefer **versatile devices**.
 
 ---
 
-## 📌 3. Order Fulfillment & Logistics
-### 🔹 What is the order fulfillment rate (delivered vs. returned)?
+### 📌 3. Order Fulfillment & Logistics
+#### 🔹 What is the order fulfillment rate (delivered vs. returned)?
 - **Delivered:** Majority of products.
 - **Returned:** Higher in **North region**.
 📌 **Insight:** **North has a fulfillment issue**—possibly due to **logistics or product expectations**.
@@ -180,7 +194,7 @@ New versus Old Customers?
 - **No clear pattern, but returns remain consistent.**
 📌 **Insight:** Need to **investigate reasons for returns** (product issues, miscommunication, or logistics).
 
-### **Power BI Insights & Key Findings**
+### **other Power BI Insights & Key Findings**
 - 📊 **Sales Dashboard:** West region dominates sales; low performance in South.  
 - 📈 **Customer Segmentation:** 36-45 age group spends the most.  
 - 🔄 **Return Trends:** North region has the most returns.  
