@@ -78,13 +78,14 @@ Key business-related questions were explored to gain deeper insights into sales 
 
 ### Best Month for Sales  
 ![best_month sales](https://github.com/user-attachments/assets/234207aa-053d-458f-bc1c-b917503d8c3c)
-
+### Number of returns per product
+![number_of_returned_products_](https://github.com/user-attachments/assets/f17eb7ea-9381-4013-a559-7834950c012e)
 
 ### Findings  
 - The **West** region had the highest sales, indicating a strong market presence.  
 - **Product X** was the best-selling item, suggesting potential for stock expansion.  
-- The **correlation heatmap** provided insights into sales-driving factors.  
-- **Returned products analysis** helped identify refund trends and potential improvement areas.  
+- The **correlation heatmap** provided insights into sales-driving factors indicating variance based on age.  
+- **Returned products analysis** monitors have the highest return rate and smart watch has the lowest return rate.
 ---
 ## Sql Analysis
 
