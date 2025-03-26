@@ -3,7 +3,7 @@
 
 ## 📌 Table of Contents  
 1. [Project Overview](#-project-overview)
-2. [Introduction](#-introduction).
+2. [Introduction](#introduction).
 3. [🛠️ Data Cleaning Process](#️-data-cleaning-process)  
    - [Handling Missing Values](#1️⃣-handling-missing-values)  
    - [Ensuring Data Consistency](#2️⃣-ensuring-data-consistency)  
