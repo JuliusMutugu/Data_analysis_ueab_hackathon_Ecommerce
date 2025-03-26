@@ -19,7 +19,7 @@
    - [Important Queries](#important-queries)  
 6. [📊 Power BI Visuals](#power-bi-visuals)  
  - [Sales Analysis](#1-sales-analysis)  
-  - [Customer Behavior](#2-customer-behavior)
+  - [Customer Insight](#2-customer-insight)
   
 9. [🚀 Recommendations](#Recommendations)
 10. 
@@ -164,7 +164,7 @@ Tool used: [PowerBI](www.microsoft.com/powerbi-desktop).
 
 ---
 
-###  2. Customer Behavior
+###  2. Customer Insights
 ![Screenshot 2025-03-25 083121](https://github.com/user-attachments/assets/f4dbc2fa-273c-4f47-b955-c36d8de53f59)
 #### 🔹 How does customer age impact purchasing behavior?
 - **Most spending:** **36-45 & 46-55 age groups**.
