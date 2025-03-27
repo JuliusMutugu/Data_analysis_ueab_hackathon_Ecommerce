@@ -192,6 +192,7 @@ Tool used: [PowerBI](www.microsoft.com/powerbi-desktop).
 - 📊 **Sales Dashboard:** West region dominates sales; low performance in South.  
 - 📈 **Customer Segmentation:** 36-45 age group spends the most.  
 - 🔄 **Return Trends:** North region has the most returns.  
+![Screenshot 2025-03-25 055643](https://github.com/user-attachments/assets/21ea0aec-7e4a-43c9-8ff2-02ca45675542)
 
 
 ---
