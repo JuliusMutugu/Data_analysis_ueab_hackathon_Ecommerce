@@ -133,6 +133,8 @@ GROUP BY `Region`
 ORDER BY Revenue DESC  
 LIMIT 3;
 ```
+![best_region](https://github.com/user-attachments/assets/832dc680-7f01-493a-98e2-f96a4a1d360b)
+
 
 ## Power Bi Visuals. 
 Here i used power BI desktop to make reports from the sql results. Performing drill down operations on the date to extract records based on quarters. The reports are extracted from the csv files previously drafted from mysql available in the **sqlResults**. 
