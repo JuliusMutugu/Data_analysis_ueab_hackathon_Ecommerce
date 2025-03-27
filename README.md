@@ -114,6 +114,8 @@ USE Ecommerce;
   GROUP BY Day_of_Week  
   ORDER BY FIELD(Day_of_Week, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
 ```
+![best_day_of_the_week](https://github.com/user-attachments/assets/7cef02e1-1b5d-4477-bc99-c2e23223fa13)
+
 #### top 5 customers
 ```sql
   SELECT `Customer ID`, SUM(`Total Price`) AS Total_Spent  
