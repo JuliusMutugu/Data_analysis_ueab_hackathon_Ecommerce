@@ -122,6 +122,7 @@ GROUP BY `Customer ID`
 ORDER BY Total_Spent DESC  
 LIMIT 5;
 ```
+![Screenshot 2025-03-23 043729](https://github.com/user-attachments/assets/3061dd70-b452-4689-b824-978ecc419f02)
 #### highest revenue regions
 ```sql
 SELECT `Region`, SUM(`Total Price`) AS Revenue  
