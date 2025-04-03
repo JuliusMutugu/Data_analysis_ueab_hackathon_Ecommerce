@@ -1,26 +1,4 @@
 # E-Commerce Sales Analysis Hackathon
-
-## Table of Contents  
-1. Project Overview  
-2. Introduction  
-3. Data Cleaning Process  
-   - Handling Missing Values  
-   - Ensuring Data Consistency  
-   - Initial Data Exploration  
-4. Data Visualization & Insights  
-   - Best Performing Regions  
-   - Best-Selling Product  
-   - Correlation Analysis  
-   - Best Month for Sales  
-5. SQL Analysis  
-   - Database Setup  
-   - Data Preprocessing  
-   - Important Queries  
-6. Power BI Visuals  
-   - Sales Analysis  
-   - Customer Insight  
-7. Recommendations  
-
 ---
 
 ## Project Overview  
