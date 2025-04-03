@@ -101,6 +101,17 @@ USE Ecommerce;
 
 ---
 
+## Power BI Visuals  
+Power BI was used to create detailed visualizations, allowing for more dynamic interaction with the data. 
+
+### Sales Analysis  
+![powerbi_sales_analysis](https://github.com/user-attachments/assets/8d5f912b-37a5-4b8f-a112-bc4f412d3fd6)  
+
+### Customer Insight  
+![powerbi_customer_insight](https://github.com/user-attachments/assets/2c6efb87-3c5b-47dc-9b4c-ff19f88d47f1)  
+
+---
+
 ## Recommendations  
 To improve sales performance and customer satisfaction, businesses should implement **loyalty programs** and **personalized marketing campaigns** based on past purchase behavior to enhance customer retention. Strategies should be designed to **maximize revenue** from the **36-55 age group**, which contributes the highest revenue, through targeted advertising and tailored promotions. To reduce product returns, businesses should enhance product descriptions, improve quality control processes, and optimize logistics, particularly in the **North region**, where return rates are highest. **Gender-specific marketing strategies** should be employed, with men targeted for performance-based products like monitors and laptops, while women should be engaged with versatile product features. Lastly, sales performance in underperforming regions such as **South and East** should be improved through **region-specific promotions, local influencer partnerships, and location-based discounts**. By implementing these strategies, businesses can drive higher revenue, improve operational efficiency, and strengthen customer engagement for long-term profitability.
 
